@@ -58,5 +58,4 @@ Feel free to fork this project, suggest improvements, or submit pull requests.
 ## 📜 License
 This project is open-source and available under the MIT License.
 
----
 Enjoy using **Advanced Image Gallery**! 🚀
