@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>📸 Advanced Image Gallery</h1>
+
+    <!-- Drag & Drop Upload Area -->
+    <div class="upload-container" id="uploadContainer">
+        <div class="upload-text">
+            <span>Drag & Drop Images Here</span>
+            <br>
+            <span class="orange-text">or</span>
+            <br>
+            <span>Click to Upload</span>
+        </div>
+        <input type="file" id="imageUpload" accept="image/*" multiple>
+    </div>
+
+    <!-- Image Gallery -->
+    <div class="gallery" id="gallery"></div>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img id="lightbox-img" src="" alt="Full View">
+        <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+        <button class="next" onclick="changeImage(1)">&#10095;</button>
+        <button class="download" onclick="downloadImage()">&#10515;</button>
+        <button class="zoom-in" onclick="zoomImage(1.2)">+</button>
+        <button class="zoom-out" onclick="zoomImage(0.8)">-</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
