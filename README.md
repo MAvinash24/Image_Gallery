@@ -1,7 +1,7 @@
 # 📸 Advanced Image Gallery
 
 ## 📝 Description
-The **Advanced Image Gallery** is a sleek and modern web application that allows users to upload, view, and manage images with an interactive UI. It features drag-and-drop file upload, a responsive grid gallery, a lightbox viewer with navigation controls, and zoom/download functionalities.
+The **Advanced Image Gallery** is a sleek and modern web application that allows users to upload, view, and manage images with an interactive UI. It features drag-and-drop file upload, responsive grid gallery, lightbox viewer with navigation controls, and zoom/download functionalities.
 
 ## 🚀 Features
 - **Drag & Drop Upload**: Easily upload images via drag-and-drop or file selection.
